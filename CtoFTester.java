@@ -19,7 +19,8 @@ public class CtoFTester{
 		temperature = scan.nextDouble();
 		System.out.println((temperature - 32) / 1.8);
 	}
-	System.out.println ("Please enter 1 or 2");
-	
+
+	else
+		System.out.println ("Please enter 1 or 2");
     }
 }

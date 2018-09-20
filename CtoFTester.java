@@ -21,6 +21,6 @@ public class CtoFTester{
 	}
 
 	else
-		System.out.println ("Please enter 1 or 2");
+		System.out.println ("Invalid input.");
     }
 }

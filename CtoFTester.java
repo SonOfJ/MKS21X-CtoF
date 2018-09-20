@@ -1,8 +1,8 @@
 public class CtoFTester{
-    public static double celsiusToFahrenheit (double f) {
-	return (f - 32) * 5 / 9;
+    public static double celsiusToFahrenheit (double c) {
+	return c * 1.8 + 32;
 	}
-    public static double 
-        System.out.println("Hello world");
-    }
+    public static double fahrenheitToCelsius (double f) {
+	return (f - 32) / 1.8;
+    	}
 }
